@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    }
+    body{
+    width: 960px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header{
+        border-bottom: grey solid 2px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .principal{
+        overflow: hidden;
+    }
+    nav{
+    width: 300px;
+    float: left;
+    padding: 20px;
+    }
+    nav ul{
+    line-height: 50px;
+    }
+    nav ul li{
+    list-style: none;
+    }
+    nav ul li a{
+    text-decoration: none;
+    color: black;
+    }
+    main{
+    width: 660px;
+    float: left;
+    padding: 20px;
+    border-left: solid 2px grey;
+    }
+    main section{
+    overflow: hidden;
+    margin-top: 30px;
+    }
+    section img{
+        float: right;
+        border: solid silver 2px;
+        width: 200px;
+    }
+    main section article{
+    margin-left: 20px;
+    margin: 20px;
+    }
+    footer{
+        background-color: silver;
+        overflow: hidden;
+        padding: 20px;
+    }
+    footer img{
+    width: 300px;
+    float: left;
+    }
+    footer article{
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    }
+    footer article ul{
+    margin-top: 20px;
+    }
+    footer article ul li{
+        list-style: none;
+    }
+    footer article ul li a, footer article a{
+        text-decoration: none;
+        color: white;
+    }
